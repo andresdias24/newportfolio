@@ -4,6 +4,7 @@ function App() {
     <>
       <div>
         <h1> portafolio 3d</h1>
+      </div>
     </>
   )
 }

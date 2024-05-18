@@ -27,16 +27,16 @@ import {
 
 export const navLinks = [
     {
-        id: "about",
-        title: "About",
+        id: "About",
+        title: "Sobre mi",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "Work",
+        title: "Trabajos",
     },
     {
-        id: "contact",
-        title: "Contact",
+        id: "Contact",
+        title: "Contacto",
     },
 ];
 
@@ -46,7 +46,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "junior mobile Developer",
         icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "entisiasta de la tecnologia",
         icon: creator,
     },
 ];
@@ -80,10 +80,10 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,

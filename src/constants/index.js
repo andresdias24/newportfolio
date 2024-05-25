@@ -69,24 +69,16 @@ const technologies = [
         icon: css,
     },
     {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
         name: "JavaScript",
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
-    },
-    // {
-    //     name: "Redux Toolkit",
-    //     icon: redux,
-    // },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
     },
     {
         name: "Node JS",
@@ -96,6 +88,15 @@ const technologies = [
         name: "MongoDB",
         icon: mongodb,
     },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
+
     {
         name: "Three JS",
         icon: threejs,
@@ -116,8 +117,8 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "analista tecnico",
+        company_name: "miora",
         icon: starbucks,
         iconBg: "#383E56",
         date: "March 2020 - April 2021",
@@ -129,8 +130,8 @@ const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "front-end developer",
+        company_name: "fundacion u.distrital",
         icon: tesla,
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
@@ -142,8 +143,8 @@ const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "front-end developer",
+        company_name: "tita media",
         icon: shopify,
         iconBg: "#383E56",
         date: "Jan 2022 - Jan 2023",
@@ -155,8 +156,8 @@ const experiences = [
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
+        title: "bewe",
+        company_name: "back-end developer",
         icon: meta,
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Present",

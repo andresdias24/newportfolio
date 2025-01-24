@@ -92,6 +92,10 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
 
     {
         name: "Three JS",
@@ -113,58 +117,59 @@ const technologies = [
 
 const experiences = [
     {
-        titulo: "Desarrollador Node.js",
-        nombre_empresa: "Miora",
-        icono: starbucks,
-        iconoFondo: "#383E56",
-        fecha: "Marzo 2020 - Abril 2021",
-        puntos: [
-            "Desarrollar y mantener aplicaciones del lado del servidor utilizando Node.js y otras tecnologías relacionadas.",
-            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
-            "Implementar APIs RESTful y asegurar la integración con servicios de terceros.",
-            "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
-        ],
-    },
-    {
-        titulo: "Desarrollador Full-Stack",
-        nombre_empresa: "Fundación U.Distrital",
-        icono: tesla,
-        iconoFondo: "#E6DEDD",
-        fecha: "Enero 2021 - Febrero 2022",
-        puntos: [
-            "Desarrollar y mantener aplicaciones web utilizando Node.js y React.js.",
-            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
+        title: "Analista Técnico",
+        company_name: "Miora",
+        icon: "⚙️", // Icono genérico para trabajos técnicos
+        iconBg: "#383E56",
+        date: "Marzo 2020 - Abril 2021",
+        points: [
+            "Desarrollar y mantener aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
+            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores, para crear productos de alta calidad.",
             "Implementar diseño responsivo y asegurar la compatibilidad entre navegadores.",
             "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
         ],
     },
     {
-        titulo: "Ingeniero de Nube",
-        nombre_empresa: "Tita Media",
-        icono: shopify,
-        iconoFondo: "#383E56",
-        fecha: "Enero 2022 - Enero 2023",
-        puntos: [
-            "Desarrollar y mantener infraestructuras en la nube utilizando Google Cloud Platform (GCP).",
-            "Colaborar con equipos multifuncionales para diseñar y desplegar soluciones escalables y seguras.",
-            "Implementar y gestionar servicios de GCP como Compute Engine, Cloud Storage y BigQuery.",
-            "Participar en revisiones de arquitectura y proporcionar retroalimentación constructiva.",
+        title: "Desarrollador Front-End",
+        company_name: "Fundación U.Distrital",
+        icon: "💻", // Icono genérico para desarrollo de software
+        iconBg: "#E6DEDD",
+        date: "Enero 2021 - Febrero 2022",
+        points: [
+            "Desarrollar y mantener aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
+            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores, para crear productos de alta calidad.",
+            "Implementar diseño responsivo y asegurar la compatibilidad entre navegadores.",
+            "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
         ],
     },
     {
-        titulo: "Desarrollador Backend",
-        nombre_empresa: "Bewe",
-        icono: meta,
-        iconoFondo: "#E6DEDD",
-        fecha: "Enero 2023 - Presente",
-        puntos: [
-            "Desarrollar y mantener aplicaciones del lado del servidor utilizando Node.js y otras tecnologías relacionadas.",
-            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
-            "Implementar APIs RESTful y asegurar la integración con servicios de terceros.",
+        title: "Desarrollador Front-End",
+        company_name: "Tita Media",
+        icon: "🌐", // Icono genérico para desarrollo web
+        iconBg: "#383E56",
+        date: "Enero 2022 - Enero 2023",
+        points: [
+            "Desarrollar y mantener aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
+            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores, para crear productos de alta calidad.",
+            "Implementar diseño responsivo y asegurar la compatibilidad entre navegadores.",
+            "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
+        ],
+    },
+    {
+        title: "Desarrollador Back-End",
+        company_name: "Bewe",
+        icon: "🔧", // Icono genérico para desarrollo back-end
+        iconBg: "#E6DEDD",
+        date: "Enero 2023 - Presente",
+        points: [
+            "Desarrollar y mantener aplicaciones web utilizando React.js y otras tecnologías relacionadas.",
+            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores, para crear productos de alta calidad.",
+            "Implementar diseño responsivo y asegurar la compatibilidad entre navegadores.",
             "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
         ],
     },
 ];
+
 
 const testimonials = [
 //     {
@@ -195,9 +200,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Comercio Electrónico",
+        name: "E-commerce",
         description:
-            "Plataforma web que permite a los usuarios buscar, reservar y gestionar alquileres de coches de varios proveedores, proporcionando una solución conveniente y eficiente para las necesidades de transporte.",
+            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
             {
                 name: "react",
@@ -212,9 +217,9 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "API REST",
+        name: "REST_API",
         description:
-            "Aplicación web que permite a los usuarios buscar ofertas de trabajo, ver rangos salariales estimados para puestos y localizar trabajos disponibles según su ubicación actual.",
+            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
             {
                 name: "react",
@@ -233,9 +238,9 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Guía de Viajes",
+        name: "Trip Guide",
         description:
-            "Una plataforma integral de reservas de viajes que permite a los usuarios reservar vuelos, hoteles y coches de alquiler, y ofrece recomendaciones seleccionadas para destinos populares.",
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
             {
                 name: "nextjs",

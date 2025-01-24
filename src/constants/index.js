@@ -92,10 +92,6 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    // {
-    //     name: "Redux Toolkit",
-    //     icon: redux,
-    // },
 
     {
         name: "Three JS",
@@ -115,57 +111,57 @@ const technologies = [
     },
 ];
 
-const experiences = [
+const experiencias = [
     {
-        title: "analista tecnico",
-        company_name: "miora",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        titulo: "Desarrollador Node.js",
+        nombre_empresa: "Miora",
+        icono: starbucks,
+        iconoFondo: "#383E56",
+        fecha: "Marzo 2020 - Abril 2021",
+        puntos: [
+            "Desarrollar y mantener aplicaciones del lado del servidor utilizando Node.js y otras tecnologías relacionadas.",
+            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
+            "Implementar APIs RESTful y asegurar la integración con servicios de terceros.",
+            "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
         ],
     },
     {
-        title: "front-end developer",
-        company_name: "fundacion u.distrital",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        titulo: "Desarrollador Full-Stack",
+        nombre_empresa: "Fundación U.Distrital",
+        icono: tesla,
+        iconoFondo: "#E6DEDD",
+        fecha: "Enero 2021 - Febrero 2022",
+        puntos: [
+            "Desarrollar y mantener aplicaciones web utilizando Node.js y React.js.",
+            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
+            "Implementar diseño responsivo y asegurar la compatibilidad entre navegadores.",
+            "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
         ],
     },
     {
-        title: "front-end developer",
-        company_name: "tita media",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        titulo: "Ingeniero de Nube",
+        nombre_empresa: "Tita Media",
+        icono: shopify,
+        iconoFondo: "#383E56",
+        fecha: "Enero 2022 - Enero 2023",
+        puntos: [
+            "Desarrollar y mantener infraestructuras en la nube utilizando Google Cloud Platform (GCP).",
+            "Colaborar con equipos multifuncionales para diseñar y desplegar soluciones escalables y seguras.",
+            "Implementar y gestionar servicios de GCP como Compute Engine, Cloud Storage y BigQuery.",
+            "Participar en revisiones de arquitectura y proporcionar retroalimentación constructiva.",
         ],
     },
     {
-        title: "bewe",
-        company_name: "back-end developer",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        titulo: "Desarrollador Backend",
+        nombre_empresa: "Bewe",
+        icono: meta,
+        iconoFondo: "#E6DEDD",
+        fecha: "Enero 2023 - Presente",
+        puntos: [
+            "Desarrollar y mantener aplicaciones del lado del servidor utilizando Node.js y otras tecnologías relacionadas.",
+            "Colaborar con equipos multifuncionales, incluidos diseñadores, gerentes de producto y otros desarrolladores para crear productos de alta calidad.",
+            "Implementar APIs RESTful y asegurar la integración con servicios de terceros.",
+            "Participar en revisiones de código y proporcionar retroalimentación constructiva a otros desarrolladores.",
         ],
     },
 ];

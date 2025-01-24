@@ -199,9 +199,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "E-commerce",
+        name: "Comercio Electrónico",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Plataforma web que permite a los usuarios buscar, reservar y gestionar alquileres de coches de varios proveedores, proporcionando una solución conveniente y eficiente para las necesidades de transporte.",
         tags: [
             {
                 name: "react",
@@ -216,9 +216,9 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "REST_API",
+        name: "API REST",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Aplicación web que permite a los usuarios buscar ofertas de trabajo, ver rangos salariales estimados para puestos y localizar trabajos disponibles según su ubicación actual.",
         tags: [
             {
                 name: "react",
@@ -237,9 +237,9 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Guía de Viajes",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Una plataforma integral de reservas de viajes que permite a los usuarios reservar vuelos, hoteles y coches de alquiler, y ofrece recomendaciones seleccionadas para destinos populares.",
         tags: [
             {
                 name: "nextjs",

@@ -111,7 +111,7 @@ const technologies = [
     },
 ];
 
-const experiencias = [
+const experiences = [
     {
         titulo: "Desarrollador Node.js",
         nombre_empresa: "Miora",

@@ -7,59 +7,59 @@ import { EarthCanvas } from "./canvas/index.js";
 import { SectionWrapper } from "../../src/hoc/index.js";
 import { slideIn } from "../../src/utils/motion.js";
 
-const Contact = () => {
+const Contacto = () => {
   const formRef = useRef();
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
+  const [formulario, setFormulario] = useState({
+    nombre: "",
+    correo: "",
+    mensaje: "",
   });
 
-  const [loading, setLoading] = useState(false);
+  const [cargando, setCargando] = useState(false);
 
-  const handleChange = (e) => {
+  const manejarCambio = (e) => {
     const { target } = e;
     const { name, value } = target;
 
-    setForm({
-      ...form,
+    setFormulario({
+      ...formulario,
       [name]: value,
     });
   };
 
-  const handleSubmit = (e) => {
+  const manejarEnvio = (e) => {
     e.preventDefault();
-    setLoading(true);
+    setCargando(true);
 
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
+          from_name: formulario.nombre,
           to_name: "JavaScript Mastery",
-          from_email: form.email,
+          from_email: formulario.correo,
           to_email: "sujata@jsmastery.pro",
-          message: form.message,
+          message: formulario.mensaje,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          setCargando(false);
+          alert("Gracias. Me pondré en contacto contigo lo antes posible.");
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
+          setFormulario({
+            nombre: "",
+            correo: "",
+            mensaje: "",
           });
         },
         (error) => {
-          setLoading(false);
+          setCargando(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Ahh, algo salió mal. Por favor, inténtalo de nuevo.");
         }
       );
   };
@@ -72,44 +72,44 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>Contáctame</p>
+        <h3 className={styles.sectionHeadText}>Contacto.</h3>
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          onSubmit={manejarEnvio}
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>Tu Nombre</span>
             <input
               type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your good name?"
+              name='nombre'
+              value={formulario.nombre}
+              onChange={manejarCambio}
+              placeholder="¿Cuál es tu nombre?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>Tu correo</span>
             <input
               type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your web address?"
+              name='correo'
+              value={formulario.correo}
+              onChange={manejarCambio}
+              placeholder="¿Cuál es tu dirección de correo?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>Tu Mensaje</span>
             <textarea
               rows={7}
-              name='message'
-              value={form.message}
-              onChange={handleChange}
-              placeholder='What you want to say?'
+              name='mensaje'
+              value={formulario.mensaje}
+              onChange={manejarCambio}
+              placeholder='¿Qué quieres decir?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -118,7 +118,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {cargando ? "Enviando..." : "Enviar"}
           </button>
         </form>
       </motion.div>
@@ -133,4 +133,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapper(Contacto, "contacto");

@@ -40,7 +40,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Sobre mí</p>
-        <h2 className={styles.sectionHeadText}>Descripción general.</h2>
+        <h2 className={styles.sectionHeadText}>algo general</h2>
       </motion.div>
 
       <motion.p
@@ -51,7 +51,9 @@ const About = () => {
 
           Siempre estoy en busca de nuevos conocimientos y me encanta colaborar en proyectos innovadores. Me dedico a ayudar a las personas a encontrar soluciones óptimas para sus productos, creando soluciones inteligentes que resuelven problemas de la manera más eficiente posible.
 
-          Mi objetivo es trabajar en equipo para dar vida a tus ideas. ¡Vamos a trabajar juntos para hacer realidad tus proyectos!
+          Mi objetivo es trabajar en equipo para dar vida a tus ideas. <strong>
+            ¡Vamos a trabajar juntos para hacer realidad tus proyectos!
+            </strong> 
 
       </motion.p>
 

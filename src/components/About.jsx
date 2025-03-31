@@ -45,13 +45,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-          Soy desarrollador de software especializado en tecnologías web, con experiencia en el stack JavaScript y en servicios de nube (Azure, AWS, GCP). Me apasiona trabajar con frameworks modernos como React, Node.js y MongoDB, los cuales considero extremadamente versátiles.
-
-          Siempre estoy en busca de nuevos conocimientos y me encanta colaborar en proyectos innovadores. Me dedico a ayudar a las personas a encontrar soluciones óptimas para sus productos, creando soluciones inteligentes que resuelven problemas de la manera más eficiente posible.
-
-          Mi objetivo es trabajar en equipo para dar vida a tus ideas. <strong>
+          Soy padre de un hermoso bebe, desarrollador de software de corazon , especializado en tecnologías web, en servicios de nube (Azure, AWS, GCP), con experiencia de mas de 6 años de este hermos viaje . Me apasiona trabajar con metodos moderna , los cuales considero extremadamente impoertantes. <strong>
             ¡Vamos a trabajar juntos para hacer realidad tus proyectos!
             </strong> 
 
